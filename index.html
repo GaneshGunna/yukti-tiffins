@@ -1,10 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ganesh Portfolio</title>
+    <title>Yukti Tiffin Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #ffefba, #ffffff);
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+            url('https://images.unsplash.com/photo-1604908554027-92c02b3de3f5');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 28px;
+            color: #ffd700;
+            margin-top: 0;
+        }
+
+        nav {
+            background: #b22222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .menu-item {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            font-size: 18px;
+            width: 220px;
+        }
+
+        .highlight {
+            background: #ffcc00;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .contact-box {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 35px;
+            }
+            header h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my official website.</p>
+
+<header>
+    <h1>Yukti Tiffin Center</h1>
+    <h2>🌟 Begum Bazaar Special Dosa 🌟</h2>
+    <p>Fresh & Delicious Tiffins • Open All Day</p>
+</header>
+
+<nav>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="highlight">🔥 Special: Begum Bazaar Masala Dosa – ₹35 🔥</div>
+
+    <div class="menu-container">
+        <div class="menu-item">Idli – ₹35</div>
+        <div class="menu-item">Butter Idli – ₹60</div>
+        <div class="menu-item">Vada – ₹35</div>
+        <div class="menu-item">Mysore Bajji – ₹35</div>
+        <div class="menu-item">Masala Dosa – ₹35</div>
+        <div class="menu-item">Upma Dosa – ₹35</div>
+        <div class="menu-item">Onion Dosa – ₹35</div>
+        <div class="menu-item">Butter Dosa – ₹60</div>
+        <div class="menu-item">Paneer Dosa – ₹70</div>
+        <div class="menu-item">Cheese Dosa – ₹80</div>
+        <div class="menu-item">Schezwan Dosa – ₹90</div>
+        <div class="menu-item">Cheese Paneer Dosa – ₹100</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p>📍 Tukaram Gate Main Road, East Marredpally, Secunderabad</p>
+        <p>📞 1234576</p>
+        <p>🕒 Open All Day</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Yukti Tiffin Center | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
